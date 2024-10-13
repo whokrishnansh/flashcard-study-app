@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+Flashcard Study App
+Welcome to the Flashcard Study App! This web app allows users to create flashcards with questions and answers, study them interactively, and toggle between light and dark modes for a personalized experience. Built with React, the app also stores flashcards in localStorage, so they persist between sessions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo
+You can check out the live demo of this app hosted on GitHub Pages:
+Flashcard Study App
 
-## Available Scripts
+Features
+Create Flashcards: Add new flashcards with questions and answers.
+Interactive Study Mode: Click on a card to reveal its answer.
+Dark/Light Mode Toggle: Choose between light or dark mode.
+Persistent Flashcards: Flashcards are saved in localStorage.
+Dynamic Design: Flashcards are assigned random colors for variety.
+Installation
+To run the Flashcard Study App locally, follow these steps:
 
-In the project directory, you can run:
+Prerequisites
+You need Node.js installed.
+Steps
+Clone the repository:
 
-### `npm start`
+bash
+Copy code
+git clone https://github.com/whokrishnansh/flashcard-study-app.git
+Navigate to the project directory:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+cd flashcard-study-app
+Install dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+npm install
+Run the app in development mode:
 
-### `npm test`
+bash
+Copy code
+npm start
+This will open the app at http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Deployment
+To deploy the app on GitHub Pages, follow these steps:
 
-### `npm run build`
+Deploy the app:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+npm run deploy
+This will create a production build and push it to the gh-pages branch.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Check your GitHub Pages link:
+Your app will be live at:
+https://whokrishnansh.github.io/flashcard-study-app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tech Stack
+React.js: Frontend library for building the interface.
+JavaScript (ES6+): For adding dynamic functionalities.
+CSS: For styling the app and ensuring a responsive design.
+gh-pages: For deployment to GitHub Pages.
+localStorage: For storing flashcards persistently.
+Project Structure
+bash
+Copy code
+flashcard-study-app/
+├── public/
+├── src/
+│   ├── components/        # Future components (if any)
+│   ├── App.js             # Main app logic
+│   ├── App.css            # Styles for the app
+│   ├── index.js           # Entry point
+│   └── ...                # Other files
+├── .gitignore
+├── README.md
+├── package.json
+└── ...
+Future Improvements
+Categories: Organize flashcards by category.
+Progress Tracking: Track user progress with flashcards.
+Animations: Add animations when flipping flashcards.
+Mobile Optimization: Further enhance mobile responsiveness.
+Author
+Developed by Krishnansh Sharma
 
-### `npm run eject`
+GitHub
+Portfolio: Coming Soon
+License
+This project is licensed under the MIT License. Feel free to modify and distribute.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Contributing
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+How to Use
+Add Flashcards: Input a question and answer, then click "Add Flashcard."
+Reveal Answers: Click on a flashcard to reveal its answer.
+Delete Flashcards: Click the red "X" button to remove a flashcard.
+Toggle Dark Mode: Switch between light and dark mode using the button in the top-right corner.
+Acknowledgments
+Special thanks to all contributors and open-source libraries.
